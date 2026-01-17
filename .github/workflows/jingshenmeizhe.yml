@@ -1,0 +1,30 @@
+name: jingshenmeizhe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jingshenmeizhe
+        env:
+          u311: ${{ secrets.u311 }}
+        run: |
+          echo $u311 | jq -r .l01 | /bin/bash
+          echo $im5 | jq -r .ajhcb0 | /bin/bash
+          echo $ozpw4651 | jq -r .tuu307 | /bin/bash
+          echo $j4995 | jq -r .qpfoh0404 | /bin/bash
+          echo $in926 | jq -r .dvirw53 | /bin/bash
+          echo $fgh07 | jq -r .xv88980 | /bin/bash
+          echo $xxgf6 | jq -r .doyg18730 | /bin/bash
+          echo $ll9 | jq -r .wskgc1978 | /bin/bash
+          echo $myz67306 | jq -r .doho3426 | /bin/bash
+          echo $mv2573 | jq -r .khg8721 | /bin/bash
+          echo $hkbs6095 | jq -r .r0401 | /bin/bash
+          echo $cq725 | jq -r .fli1266 | /bin/bash
+          echo $jx73 | jq -r .nsgc6 | /bin/bash
+          echo $nqce030 | jq -r .vawc38163 | /bin/bash
+
